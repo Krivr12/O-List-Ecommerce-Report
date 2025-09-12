@@ -1,11 +1,17 @@
-# AWS E-Commerce Data Analysis
+# Business and Operation Analysis for Brazilian E-Commerce 
+## Executive Summary:
 
-This project analyzes the **Olist E-Commerce dataset** using **AWS Athena**, **Amazon S3**, and **Python** (PyAthena & Pandas).  
-The goal is to clean, transform, and analyze customer and order data, then generate useful KPIs for insights.
+Using Python and AWS, I pulled the data from the cloud storage and created a dashboard to easily track our progress. I identified that the largest bottleneck in our operation is "Carrier -> Customer" Stage and that customer retention rate is low, with 3.9% being the highest. With that, the largest revenue opportunities are to increase and identify strategic warehouse location and to create actions like loyalty discounts and repeat order promos. I recommend that the logistic and marketing team create a joint operation they will review the process and suggest changes that would lead to:
+
+1. Faster delivery rate, especially on low performing regions like Bahia.
+2. Higher customer retention rate.
+3. Maintain the momentum and further grow demand in emerging states like Parana.
+4. Drastic increase in revenue.
 
 ---
+## Business Problem:
 
-## Features
+Fast and on-time orders are essential for an e-commerce platform like Olist, this affect customer satisfaction and retention rate. I noticed that there's a severe delayed delivery in order states, with some reaching up to 26 days, almost doubled the average delivery times of 12 days, and aside from that it is also visible that we still have a low retention rate. The goal is how can we identify on which stage in the operation might be the root cause of this delayed 
 
 - Load and clean raw Olist datasets.
 - Query datasets using **AWS Athena** with SQL.

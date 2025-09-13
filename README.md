@@ -31,12 +31,15 @@ You can see that we have greater number of orders with states that have short de
    
 ## Results and Business Recommendation:
 On average, monthly orders grew by 306 orders, showing steady growth due to some ups and down which might be caused of different shopping pattern depending on the season. Despite this consistent growth, we have declining states like Tocantins (TO) and Espirito Santo (ES) with an 8% decline from the number of orders from the start and end of the period. 
+<p></p>
 <img width="898" height="494" alt="image" src="https://github.com/user-attachments/assets/5c7784d7-9bd5-42b1-8665-cae4bcbdf89e" />
 
 I also discovered the Sao Paolo (SP) is the main contributor with 41,621 orders (42%) followed by Rio de Janeiro (RJ)  with 12,792 (13%). This create a high dependency in Sao Paulo. Having a huge and consistent market would allow us to balance our growth, I suggest that we should diversify our resources into emerging states like Paraná and Rio Grande do Sul with each sharing 5% market share. But we should also create actions that would support and address declining markets.
+<p></p>
 <img width="724" height="408" alt="image" src="https://github.com/user-attachments/assets/f8c73cdd-800f-4a66-b24c-a4595577f840" />
 
 Carrier -> Customer stage also proves to be the orimary bottleneck that cause delays on most of the order with a 100% result of each month, accounting to 9.3 days or 77% of the average total process time. This is followed by the approval process due to its considerable variability that could further increase this delay. This can be solve by reviewing the overall operational process and having an intensive geographic market study that would help us find a suitable location for an additional warehouse that would have the highest impact while keeping the cost low.
+<p></p>
 <img width="678" height="395" alt="image" src="https://github.com/user-attachments/assets/dc74e89d-d73d-4d61-9aba-de8857662e76" />
 
 For in-depth analysis, check these notebooks: [Business Performance Analysis](https://github.com/Krivr12/O-List-Ecommerce-Report/blob/master/notebook/Business_Performance.ipynb) and [Operation Analysis](https://github.com/Krivr12/O-List-Ecommerce-Report/blob/master/notebook/Operational_Analysis.ipynb) 

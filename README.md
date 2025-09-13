@@ -11,56 +11,30 @@ Using Python and AWS, I pulled the data from the cloud storage and created a das
 ---
 ## Business Problem:
 
-Fast and on-time orders are essential for an e-commerce platform like Olist, this affect customer satisfaction and retention rate. I noticed that there's a severe delayed delivery in order states, with some reaching up to 26 days, almost doubled the average delivery times of 12 days, and aside from that it is also visible that we still have a low retention rate. The goal is how can we identify on which stage in the operation might be the root cause of this delayed 
+Fast and on-time orders are essential for an e-commerce platform like Olist, this affect customer satisfaction and retention rate. I noticed that there's a severe delayed delivery in order states, with some reaching up to 26 days, almost doubled the average delivery times of 12 days, and aside from that it is also visible that we still have a low retention rate. The goal is how can we identify on which stage in the operation is the root cause of this delayed, and on which states should we focus our resources more for greater ROI.
 
-- Load and clean raw Olist datasets.
-- Query datasets using **AWS Athena** with SQL.
-- Filter orders (e.g., by date range `2017-01-01` → `2018-09-01`).
-- Save **processed CSVs** for analysis.
-- Upload both raw and processed datasets to **Amazon S3**.
-- Jupyter notebooks for:
-  - **Business Performance** (revenue, orders, customer growth).
-  - **Operational Analysis** (delivery performance, order status).
-- Dashboard app for visualization.
+<img width="1062" height="568" alt="image" src="https://github.com/user-attachments/assets/39aef07c-c542-4b65-b5b4-24d291fe223d" />
 
----
+You can see that we have greater number of orders with states that have short delivery time compared to states. 
 
-## Requirements
+## Methodology:
 
-- Python 3.8+
-- AWS Account with **S3** & **Athena** enabled
-- Python packages (install via `requirements.txt`):
+1. Use Boto3 to create a connection with AWS and perform data retrieval to have accessed with the raw files.
+2. Conduct ETL using python to prepare data for analyzation.
+3. Performed statistical analysis on both the Business Performance and Operation.
+4. Created a dashboard using streamlit for better visualization and tracking of status and performance of the platform.
+5. Provide actionable insights that would have great impact within the business.
 
-```bash
-pip install -r requirements.txt
-```
+## Skills:
 
-## Usage
-1. Prepare Data
-Upload raw datasets (olist_customers_dataset.csv, olist_orders_dataset.csv) into data/raw/.
-2. Upload to S3
-```bash
-python src/aws/s3_upload.py
-```
-3. Run Athena Queries
-```bash
-python src/aws/athena_query.py
-```
-4. Process Data
-Clean and filter datasets locally:4. 
-```bash
-python src/processing/cleaning_data.py
-python src/processing/filtering_data.py
-```
-5. Upload Processed Data
-```bash
-python src/aws/s3_upload_processed_data.py
-```
-6. Explore Insights
+AWS: S3 for storing raw and processed data, Athena to have initial query on the data
+Python: Pandas to manipulate data, Numpy for computation,
+## Results and Business Recommendation:
 
-- Open Jupyter notebooks under notebook/.
+## Next Steps:
 
-- Run dashboard/dashboard.py for visualization.
+
+
 
 
 Developed by Chris Evangelista

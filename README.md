@@ -46,9 +46,9 @@ Carrier -> Customer stage also proves to be the orimary bottleneck that cause de
 3. Cooperate with marketing team to plan the best way to balance our current market status.
 
 
+## Developer  
 
+**Chris Evangelista**  
+Polytechnic University of the Philippines | AWS Cloud Clubs PUP  
 
-## Developer 
-Chris Evangelista
-Polytechnic University of the Philippines | AWS Cloud Clubs PUP
-[LinkedIn](https://www.linkedin.com/in/chrisbryevangelista12/).
+[LinkedIn](https://www.linkedin.com/in/chrisbryevangelista12/)

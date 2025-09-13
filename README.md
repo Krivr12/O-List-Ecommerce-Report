@@ -39,6 +39,8 @@ I also discovered the Sao Paolo (SP) is the main contributor with 41,621 orders 
 Carrier -> Customer stage also proves to be the orimary bottleneck that cause delays on most of the order with a 100% result of each month, accounting to 9.3 days or 77% of the average total process time. This is followed by the approval process due to its considerable variability that could further increase this delay. This can be solve by reviewing the overall operational process and having an intensive geographic market study that would help us find a suitable location for an additional warehouse that would have the highest impact while keeping the cost low.
 <img width="678" height="395" alt="image" src="https://github.com/user-attachments/assets/dc74e89d-d73d-4d61-9aba-de8857662e76" />
 
+For in-depth analysis, check these notebooks: [Business Performance Analysis](https://github.com/Krivr12/O-List-Ecommerce-Report/blob/master/notebook/Business_Performance.ipynb) and [Operation Analysis](https://github.com/Krivr12/O-List-Ecommerce-Report/blob/master/notebook/Operational_Analysis.ipynb) 
+
 
 ## Next Steps:
 1. Access location and delivery routes to provide a more efficient process.

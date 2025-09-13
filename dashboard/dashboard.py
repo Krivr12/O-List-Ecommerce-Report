@@ -22,8 +22,8 @@ def load_data():
     This function runs only once when the app starts or when data changes.
     """
     try:
-        customers = pd.read_csv('../data/processed/customers_processed.csv')
-        orders = pd.read_csv('../data/processed/orders_processed.csv')
+        customers = pd.read_csv('data/processed/customers_processed.csv')
+        orders = pd.read_csv('data/processed/orders_processed.csv')
         
         date_columns = ['order_purchase_dt', 'order_approved_dt', 
                        'order_delivered_carrier_dt', 'order_delivered_customer_dt', 
